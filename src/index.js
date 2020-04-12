@@ -38,9 +38,9 @@ class Login extends React.Component {
           <div>
             <button onClick =  {this.logIn} > Log In </button>
             <button onClick =  {this.logOut} >Log Out </button>
-             <div> This user is { this.state.loggedIn 
-             ? 'logged in'
-             : 'not logged in'}.
+             <div>{ this.state.loggedIn 
+             ? 'Welcome you are logged in!'
+             : 'Bye! You are logged out.'}
              </div>
           </div>
         )
